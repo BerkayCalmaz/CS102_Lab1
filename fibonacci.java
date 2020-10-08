@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 /**
- * __program description___ 
- * @author __your name___
- * @version __date__
+ * Gives the fibonacci numbers
+ * @author Berkay Çalmaz
+ * @version 08.10.2020
  */ 
 public class fibonacci
 {
