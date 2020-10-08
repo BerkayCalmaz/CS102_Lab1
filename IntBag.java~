@@ -87,9 +87,13 @@ public class IntBag
    
    public void removeAll( int remove){
       int[] removeBag = new int[ bag.length ];
+      int counter = 0;
       for( int i = 0; i <=  this.arraySize(); i++ ){
          if( remove != bag[i] ){
-          removeBag[i] = bag [i];  
+          removeBag[i - counter] = bag[i];  
+         }
+         else{
+          counter++;  
          }
       }
       bag = removeBag;

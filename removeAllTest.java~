@@ -72,10 +72,17 @@ public class removeAllTest
          }
          
          else if( input == 6 ){
-            
+            int numInput6;
+            System.out.println( "Enter number:" );
+            numInput6 = scan.nextInt();
+            bag.removeAll( numInput6 );
+            System.out.println( "Done!" );
          }
          
-      }while( input > 0 && input < 8 );
+         else if( input > 7 || input < 1 ){
+            System.out.println( "Enter 7 to quit please!" );
+         }
+      }while( input != 7 );
    }
    
 }

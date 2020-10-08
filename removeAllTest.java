@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 /**
- * __program description___ 
- * @author __your name___
- * @version __date__
+ * Tests the removeAll() method
+ * @author Berkay Çalmaz
+ * @version 08.10.2020
  */ 
 public class removeAllTest
 {
@@ -16,6 +16,7 @@ public class removeAllTest
       // variables
       int input;
       IntBag bag = new IntBag();
+      
       // program code
       do{
          System.out.println( "Choose by entering 1 to 7" );
